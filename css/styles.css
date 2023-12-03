@@ -458,3 +458,55 @@ body {
   width: 40px;
   height: 40px;
 }
+
+.social-links-position {
+  margin-right: 80px;
+}
+
+.subscribe-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+  width: 264px;
+  height: 40px;
+}
+
+.subscribe-user-input::placeholder {
+  color: #fff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.subscribe-user-input {
+  background-color: inherit;
+  padding: 0 0 0 16px;
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.footer-button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: inherit;
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: #4d5ae5;
+  border: 0;
+}
+
+/* =============Modal window============= */
