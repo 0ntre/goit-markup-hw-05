@@ -637,24 +637,29 @@
           </div>
           <div class="review-form-checkbox-wrapper">
             <input
-              class="review-form-checkbox"
+              class="review-form-checkbox visually-hidden"
               id="user-privacy-policy"
               name="user-privacy-policy"
               type="checkbox"
               value="true"
               required
             />
-            <label class="review-form-checkbox-label" for="user-privacy-policy"></label>
+            <label
+              class="review-form-own-checkbox-label"
+              for="user-privacy-policy"
+            >
               <span class="review-form-own-checkbox">
-                 <svg
+                <svg
                   class="review-form-own-checkbox-icon"
                   width="10"
                   height="8"
-                  aria-label="checkmark icon"> <use href="./images/icons.svg#icon-check"></use>
+                  aria-label="checkmark icon"
+                >
+                  <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href="">Privacy Policy</a></label
+              <a class="link-accent-style" href="">Privacy Policy</a></label
             >
           </div>
           <button class="review-form-submit-btn" type="submit">Send</button>
